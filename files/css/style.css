@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import "common/base.css";
+
+/* -------------------------
+	Layout
+------------------------- */
+body {
+	-webkit-font-smoothing: antialiased;
+	background-color: #eee;
+}
+
+#all {
+	padding: 60px;
+}
+
+#main {
+	padding: 30px;
+	background-color: #fff;
+}
+
+.wrap {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*-------------------------------------------------------------------------
+	Common
+/*-----------------------------------------------------------------------*/
+h1 {
+	margin-bottom: 30px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/*-------------------------------------------------------------------------
+	Section
+/*-----------------------------------------------------------------------*/
+section {
+	margin-bottom: 30px;
+}
+
+h2 {
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.result {
+	position: relative;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.result .label {
+	position: absolute;
+	width: 4em;
+	padding: .2em .8em;
+	background-color: #eee;
+	text-align: center;
+}
+
+.result .value {
+	display: block;
+	overflow: scroll;
+	width: calc(100% - 6em);
+    height: 1.6em;
+	margin-left: 6em;
+	padding: .2em 0;
+	word-break: break-all;
+}
+
+.code {
+	padding: 20px 30px;
+	background-color: #292929;
+	color: #aed581;
+	font-size: 12px;
+	letter-spacing: 0;
+}
